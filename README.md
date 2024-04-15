@@ -17,3 +17,13 @@ To train the LSTM with attention model from scratch, replace:
 `lstm_model = get_lstm_model(weight_location = "c_lstm_1_layer_512_with_attention_and_params_batch_1234567_epoch_5")`
 with
 `lstm_model = get_lstm_model(weight_location = "")`
+
+## Running the GUI
+Installing dependencies:
+streamlit:
+!pip install streamlit
+YOLO:
+!pip install yolov8
+
+navigate to the project GUI directory and run the app using the command:
+streamlit run Project.py
