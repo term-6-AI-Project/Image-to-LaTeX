@@ -20,8 +20,10 @@ with
 
 ## Running the GUI
 Installing dependencies:
+
 streamlit:
 !pip install streamlit
+
 YOLO:
 !pip install yolov8
 
