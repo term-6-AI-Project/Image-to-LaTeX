@@ -4,7 +4,7 @@ To run ai_project_final.ipynb on google colab, drop the
 2. "kaggle.json" (kaggle credentials)
 files to the same directory as the jupyter notebook. Then proceed to run all cells in the notebook. 
 **Warning: when prompted to "restart kernel" after the line `!pip install yolov8`, click "Cancel" as you don't need to restart kernel.** 
-## YOLO v8 fine-tuned model
+## Running Notebooks/latex_yolo_lstm_w_attention.ipynb
 The notebook will load the fine-tuned YOLO model params from our google drive with title:
 "yolo_params_batch_1234567_epochs_12"
 
@@ -27,5 +27,4 @@ streamlit:
 YOLO:
 !pip install yolov8
 
-navigate to the project GUI directory and run the app using the command:
-streamlit run Project.py
+`streamlit run AI-Project-GUI/ai_app/Project.py`
