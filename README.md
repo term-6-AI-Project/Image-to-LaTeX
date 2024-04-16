@@ -29,3 +29,5 @@ YOLO:
 
 navigate to the project GUI directory and run the app using the command:
 streamlit run Project.py
+
+**Note that the Streamlit version used is 1.32.2**
